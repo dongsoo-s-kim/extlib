@@ -1,3 +1,7 @@
+/*
+   extlib.h
+   Copyright (C) 2019 Dongsoo S. Kim
+ */
 #ifndef EXTLIB_H
 #define EXTLIB_H
 #include <stdbool.h>

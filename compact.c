@@ -1,3 +1,7 @@
+/*
+   compact.c
+   Copyright (C) 2019 Dongsoo S. Kim
+ */
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
