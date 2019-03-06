@@ -26,7 +26,7 @@ install: $(LIBRARY) $(HEADER)
 atoc-main: atoc-main.o extract.o
 ctoa-main: ctoa-main.o
 split-main: split-main.o slist.o count.o
-compact-main: compact-main.o trim.o
+compact-main: compact-main.o 
 
 include ../default.mk
 
