@@ -28,5 +28,12 @@ ctoa-main: ctoa-main.o
 split-main: split-main.o slist.o count.o
 compact-main: compact-main.o 
 
-include ../default.mk
+.PHONY: clean cleanall all
+
+clean:
+	$(RM) *.o *~ *.exe
+
+cleanall: clean
+	$(RM) *.i *.tm *.out *.shar *.a
+
 
