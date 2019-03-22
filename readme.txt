@@ -1,25 +1,24 @@
-atoc()		lmpell
-ctoa_r()	lmpell
-ctoa()		lmpell
-extract()	lmpell
+atoc()		x
+ctoa_r()	x
+ctoa()		x
+extract()	x
 compact()	start-up
 count()		start-up
-split()		lmpell
+split()		x
+ltrim()		x
+rtrim()		x
+slist_free()	x
+slist_count()	x
 
-ltrim()		HessamLa
-rtrim()		HessamLa
-slist_free()	HessamLa
-slist_count()	HessamLa
-startswith()	HessamLa
+startswith()	lmpell
+endswidth()	lmpell
+repeat()	lmpell
+lower()		HessamLa
+upper()		HessamLa
+capitalize()	HessamLa
 
-endswidth()	Wssingle
-repeat()	Wssingle
-lower()		Wssingle
-upper()		Wssingle
-capitalize()	Wssingle
-
-reverse()	jbpotts
-trim()		jbpotts
+reverse()	Wssingle
+trim()		Wssingle
 join()		start-up
 rfind()		jbpotts
 replace()	jbpotts
