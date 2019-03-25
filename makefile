@@ -1,12 +1,13 @@
 CC	= gcc
 X86	= $(patsubst MINGW%,%,$(MSYSTEM))
-CFLAGS	= -g -I../include
+CFLAGS	= -I../include
 LDLIBS	= -lrx$(X86)	
 LDFLAGS = -L../lib
 DMAIN	= -D__MAIN__
 SOURCES	= $(wildcard *.c)
 TARGETS	= $(SOURCES:.c=)
-OBJS	= $(SOURCES:.c=.o)
+# OBJS	= $(SOURCES:.c=.o)
+OBJS = atoc.o compact.o count.o ctoa.o extract.o join.o ltrim.o rtrim.o slist.o split.o
 
 LIBRARY	= libext$(X86).a
 HEADER	= extlib.h
