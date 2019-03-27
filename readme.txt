@@ -1,3 +1,9 @@
+===== LOGGING
+3/27/2019 repeat.c is not correct. 
+
+
+
+===== At a Glance
 atoc()		x
 ctoa_r()	x
 ctoa()		x
